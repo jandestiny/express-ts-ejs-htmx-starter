@@ -8,7 +8,7 @@ A minimalistic node starter application for getting into HTMX.
 1. Make sure you have [Node.js](https://nodejs.org/en/download) and [Git](https://git-scm.com/downloads) installed on your machine.
 2. Open a terminal and clone this repository (alternatively download zip).
 ```
-git clone ...
+git clone https://github.com/jandestiny/express-ts-ejs-htmx-starter.git
 ```
 3. **cd** into the project folder
 ```
