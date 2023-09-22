@@ -12,8 +12,8 @@ app.get('/', (req: Request, res: Response) => {
   res.render('index', { title: 'HTMX-Starter' });
 });
 
-app.get('/congrats', (req: Request, res: Response) => {
-    res.render('htmx/congrats', { title: 'Congrats!' });
+app.get('/congrats/:counter', (req: Request, res: Response) => {
+    res.render('partials/congrats', { title: 'Congrats!', counter: req.params.counter});
   });
 
 // Start the server

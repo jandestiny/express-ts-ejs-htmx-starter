@@ -1,6 +1,7 @@
-<%- include('_header') %>
-    <h1>Your first htmx-app.</h1>
-    <p>This is the content of the index page.</p>
-    <button type="button" hx-get="/congrats" hx-swap="beforebegin">Click Me.</button>
+<%# Pro-tip: Always remember to include the htmx header and footer to pages %>
+<%- include('partials/_htmx-header') %>
+    <h1>Your first htmx-app. Probably.</h1>
+    <button type="button" hx-get="/congrats/1" hx-swap="outerHTML">Click Me.</button>
+    <hr>
     <p>Created to make your dev-life easier. 🤝 <a href="https://github.com/jandestiny" target="_blank" rel="noopener noreferrer">JD on GitHub</a>.</p>
-<%- include('_footer') %>
+<%- include('partials/_htmx-footer') %>

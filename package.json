@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-ejs-htmx",
+  "name": "express-ts-ejs-htmx",
   "version": "1.0.0",
   "main": "src/app.ts",
   "license": "MIT",
